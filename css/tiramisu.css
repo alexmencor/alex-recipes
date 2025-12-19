@@ -3,17 +3,56 @@ body{
     background-color: rgb(184, 170, 170);
 }
 
-.title {
-    background-color: white;
-    padding: 10px;
-    border-radius: 15px;
-    width: 600px;
-    display: inline-block;
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
 
 }
 
+.header,
 .home-button{
     background-color: white;
     border-radius: 15px;
+}
+    
+.header{
+    padding: 10px;
+    width:650px;
+}
+
+.home-button{
     padding: 20px;
+}
+
+.body-container{
+    display: flex;
+}
+
+.tiramisu{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.body-tiramisu{
+    text-align:justify;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.instructions-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ingredients,
+.steps{
+    text-align: center;
 }
