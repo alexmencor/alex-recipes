@@ -28,6 +28,7 @@ body{
 
 .body-container{
     display: flex;
+    
 }
 
 .pasta{
@@ -37,6 +38,8 @@ body{
 }
 
 .body-pasta{
+    flex: 1;
+    min-width: 300px;
     text-align:justify;
     font-size: 20px;
     padding-top: 30px;
